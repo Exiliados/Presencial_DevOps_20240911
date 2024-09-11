@@ -2,6 +2,9 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
+def palindromo(cadena):
+   return cadena == cadena[::-1]
+
 @app.route('/Ejercicio1', methods=['POST'])
 def Ejercicio1():
     datos = request.get_json()
@@ -12,12 +15,13 @@ def Ejercicio1():
 
     cadena = datos['cadena']
 
-    cadena_procesada = (cadena == cadena[::-1])
+    cadena_procesada = palindromo(cadena)
     return jsonify(cadena_procesada)
 
 
-@app.route('/Ejercicio2', methods=['POST'])
-def Ejercicio2():
+#@app.route('/Ejercicio2', methods=['POST'])
+#def Ejercicio2():
+
 
 if __name__ == '__main__':
     app.run(debug=True)
