@@ -44,8 +44,11 @@ def coincidencia(frase, palabra):
 @app.route('/Ejercicio3', methods=['POST'])
 def Ejercicio3():
     datos = request.get_json()
-    return (coincidencia(datos['frase'],datos['palabra']))
-
+    frase = datos['frase']
+    palabra = datos['palabra']
+    cantidadCoincidencias = coincidencia(frase,palabra)
+    
+    return jsonify(cantidadCoincidencias)
 
 
 if __name__ == '__main__':
