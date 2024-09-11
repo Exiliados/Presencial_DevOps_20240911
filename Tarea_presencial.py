@@ -18,9 +18,16 @@ def Ejercicio1():
     cadena_procesada = palindromo(cadena)
     return jsonify(cadena_procesada)
 
+def invertir(cadena):
+    return cadena[::-1]
 
-#@app.route('/Ejercicio2', methods=['POST'])
-#def Ejercicio2():
+@app.route('/Ejercicio2', methods=['POST'])
+def Ejercicio2():
+    datos = request.get_json()
+    if 'cadena' not in datos:
+        return jsonify({'error': 'Falta el parámetro "cadena".'}), 400
+    
+    return jsonify(invertir(datos['cadena']))
 
 
 if __name__ == '__main__':
