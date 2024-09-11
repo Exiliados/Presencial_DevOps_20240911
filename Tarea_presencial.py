@@ -50,6 +50,30 @@ def Ejercicio3():
     
     return jsonify(cantidadCoincidencias)
 
+#Ejercicio 4
+def maximin(arreglo):
+    max = 0
+    posiciones = []
+    posicion = 0
+    
+    for i in arreglo:
+        if i > max:
+            max = i
+            posiciones.clear
+            posiciones.append(posicion)
+        elif i == max:
+            posiciones.append(posicion)
+
+        posicion +=1
+
+@app.route('/Ejercicio4', methods=['POST'])
+def Ejercicio4():
+    datos = request.get_json()
+    numeros = datos['numeros']
+    
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
