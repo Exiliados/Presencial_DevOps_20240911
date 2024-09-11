@@ -15,5 +15,9 @@ def Ejercicio1():
     cadena_procesada = (cadena == cadena[::-1])
     return jsonify(cadena_procesada)
 
+
+@app.route('/Ejercicio2', methods=['POST'])
+def Ejercicio2():
+
 if __name__ == '__main__':
     app.run(debug=True)
