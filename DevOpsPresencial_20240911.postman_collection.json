@@ -335,6 +335,306 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Ejercicio11",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"matriz\": [[1, 2, 3], [4, 5, 6], [7, 8, 9]]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/Ejercicio11",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"Ejercicio11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio12",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"matriz\": [[1, 2, 3], [4, 5, 6], [7, 8, 9]]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/Ejercicio12",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"Ejercicio12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio13",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"matriz\": [[10, 20, 30], [4, 5, 6], [7, 0, 9]]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/Ejercicio13",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"Ejercicio13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio14",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"matriz\": [[10, 20, 30], [4, 5, 6], [7, 0, 9]]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/Ejercicio14",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"Ejercicio14"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio15",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"matriz\": [[1, 2, 3], [4, 5, 6], [7, 8, 9]]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/Ejercicio15",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"Ejercicio15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio16",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"cadena\": \"banana\", \"subcadena\": \"ana\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/Ejercicio16",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"Ejercicio16"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio17",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"numero\": 8}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/Ejercicio17",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"Ejercicio17"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio18",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"numero\": 5}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/Ejercicio18",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"Ejercicio18"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio19",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"arreglo\": [\"sol\", \"estrella\", \"luz\"]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/Ejercicio19",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"Ejercicio19"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejercicio20",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"numeros\": [1, 2, 3, 4, 5]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/Ejercicio20",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"Ejercicio20"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
